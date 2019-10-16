@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: 100px;
+  grid-gap: 10px;
+  background-color: rgba(33, 149, 243, 0.342);
+  padding: 10px;
+}
+.grid-mid {
+  display: inline-grid;
+  grid-template-columns: 600px;
+  height: 800px;
+  grid-gap: 10px;
+  background-color: rgba(33, 149, 243, 0.342);
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(185, 39, 39, 0.74);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<h1>Grid Lines</h1>
+<div class="grid-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+  <div>4</div>
+  <div>5</div>
+  <div >6</div>
+  <div>7</div>
+  <div>8</div>  
+</div>
+<div class="grid-mid">
+    <div>8</div>
+</div>
+<div class="grid-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+        <div>4</div>
+        <div>5</div>
+        <div >6</div>
+        <div>7</div>
+        <div>8</div>  
+</div>
+<p>You can refer to line numbers when placing grid items.</p>
+
+</body>
+</html>
